@@ -18,7 +18,7 @@ function adicionarLinha() {
         alert (`O contato: ${inputnomeContato} já foi inserido`);
     } else {
         contato.push(inputnomeContato.value);
-        numero.push(parseint(inputnumeroContato.value));
+        numero.push(parseInt(inputnumeroContato.value));
 
         let linha = '<tr>';
         linha += `<td>${inputnomeContato.value}</td>`;
